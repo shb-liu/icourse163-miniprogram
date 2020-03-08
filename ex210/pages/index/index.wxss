@@ -1,0 +1,34 @@
+/**index.wxss**/
+page{
+  background: #f1f0f6;
+}
+
+.placeholder{
+  font-size: 15px;
+}
+
+input{
+  background: #fff;
+  height: 120rpx;
+  margin: 10px;
+  padding-left: 8px;
+  border: solid 1px silver;
+}
+
+button{
+  margin: 30px 50px;
+  background-color: red;
+  color: white;
+}
+
+.content{
+  background: #fff;
+  padding: 10px;
+  color: #f00;
+}
+
+.content-item{
+  padding: 3rpx;
+  font-size: 16px;
+  line-height: 30px;
+}

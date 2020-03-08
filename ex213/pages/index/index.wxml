@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="box" hidden="{{hidden}}">
+  <view class="title">计时器</view>
+  <view class="tm">{{num}}</view>
+  <view class="btn">
+    <button bindtap="start">开始计时</button>
+    <button bindtap="stop">停止计时</button>
+  </view>
+</view>

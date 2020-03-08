@@ -1,0 +1,11 @@
+/**index.wxss**/
+.flex-wrp{
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  margin: 10px auto;
+}
+
+.item{
+  width: 330rpx;
+}

@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="box">
+<view class="title">随机数求和</view>
+<view>产生的随机数列为：</view>
+<view wx:for="{{rand}}">{{item}}</view>
+<view>随机数列的和为{{sum}}</view>
+<button type="primary" bindtap="newRand">产生新的随机数</button>
+</view>

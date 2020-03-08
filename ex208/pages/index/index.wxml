@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="box">
+<view class="title">摄氏温度转华氏温度</view>
+<view>
+<input placeholder="请输入设施温度" type="digit" bindblur="calc"></input>
+</view>
+<view>华氏温度为：{{F}}</view>
+</view>

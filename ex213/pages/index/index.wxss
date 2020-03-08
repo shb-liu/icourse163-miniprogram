@@ -1,0 +1,21 @@
+/**index.wxss**/
+.tm{
+  line-height: 200px;
+  background-color: yellow;
+  color: red;
+  text-align: center;
+  font-size: 100px;
+  border: solid silver 1px;
+  border-radius: 30px;
+  margin: 15rpx;
+}
+
+.btn{
+  display: flex;
+  flex-direction: row;
+  margin: 10rpx;
+}
+
+button{
+  width: 45%;
+}

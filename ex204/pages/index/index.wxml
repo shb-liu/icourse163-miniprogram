@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="title">
+    盒模型
+  </view>
+  <view class="boxModel01">
+    .boxModel01
+  </view>
+  <view class="boxModel02">
+    .boxModel02
+  </view>
+  <view class="boxModel03">
+    .boxModel03
+  </view>
+</view>

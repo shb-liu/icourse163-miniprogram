@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="box">
+<view class="title">计时器</view>
+<view class="clock">{{time}}</view> <!--此处0需要改为绑定数据-->
+<view class="btn">
+<button type="primary" bindtap="start">开始计时</button> <!--此处需要在js文件设计start-->
+<button type="primary" bindtap="stop">停止计时</button> <!--此处需要在js文件设计stop-->
+</view>
+</view>

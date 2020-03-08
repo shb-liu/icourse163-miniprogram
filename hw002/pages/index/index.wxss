@@ -1,0 +1,27 @@
+/**index.wxss**/
+navigator{
+  margin: 5px;
+  font-size: 20px;
+}
+
+.waikuang{
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.pa{
+  margin-right: 10px;
+  margin-top: 1px;
+}
+
+.pb{
+  flex: 1;
+}
+
+.pc{
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 5px;
+}

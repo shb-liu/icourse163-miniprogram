@@ -1,0 +1,27 @@
+<!--pages/flextxh/index.wxml-->
+<view class="box">
+  <view class="title">Flex弹性盒模型布局示例</view>
+
+  <view style="display:flex;text-align:center;line-height:80rpx">
+    <view style="background-color:red;flex-grow:1;">1</view>
+    <view style="background-color:green;flex-grow:1;">2</view>
+    <view style="background-color:blue;flex-grow:1;">3</view>
+  </view>
+  -----------------------------------
+  <view style="display:flex;text-align:center;height:200rpx;">
+    <view style="background-color:red;width:40%;line-height:200rpx;">1</view>
+    <view style="flex-direction:column;flex-grow:1;line-height:100rpx;">
+      <view style="background-color:green;flex-grow:1;">2</view>
+      <view style="background-color:blue;flex-grow:1;">3</view>
+    </view>
+  </view>
+  -----------------------------------
+  <view style="display:felx;flex-direction:column;height:300rpx;text-align:center;">
+    <view style="background-color:red;line-height:100rpx">1</view>
+    <view style="display:flex;flex-direction:row;flex-grow:1;line-height:200rpx;">
+      <view style="background-color:green;width:40%">2</view>
+      <view style="background-color:blue;width:60%">3</view>
+    </view>
+  </view>
+
+</view>

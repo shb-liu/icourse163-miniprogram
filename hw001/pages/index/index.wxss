@@ -1,0 +1,30 @@
+/**index.wxss**/
+.box{
+  margin: 20rpx;
+  border: 1px solid black;
+  padding: 10rpx;
+}
+
+.title{
+  font-size: 28px;
+  text-align: center;
+  color: rgb(0, 38, 255);
+  font-weight: bold;
+  font-family: 宋体;
+}
+
+.xb{
+  font-size: 20px;
+  color: orange;
+  font-style: oblique;
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-align: center;
+}
+
+.wx{
+  font-size: 20px;
+  font-family: 宋体;
+  color: green;
+  text-align: right;
+}

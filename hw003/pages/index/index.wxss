@@ -1,0 +1,21 @@
+/**index.wxss**/
+.clock{
+  line-height: 200px;
+  background-color: rgba(47, 172, 255, 0.733);
+  border: 2px solid silver;
+  border-radius: 30px;
+  color: red;
+  font-size: 80px;
+  text-align: center;
+  margin: 20rpx;
+  font-weight: bold;
+}
+
+.btn{
+  display: flex;
+  flex-direction: row;
+}
+
+button{
+  width: 45%;
+}

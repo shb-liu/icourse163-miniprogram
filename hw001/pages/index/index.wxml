@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="title">
+    个人信息
+  </view>
+  <view style="font-family:arial; font-size:20px">
+    姓名：Ted Liu
+  </view>
+  <view class="xb">
+    性别：男
+  </view>
+  <view class="wx">
+    微信：lfl_qw
+  </view>
+</view>

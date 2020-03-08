@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="title">导航栏</view>
+  <navigator url="../flextxh/index">
+    <view class="waikuang">
+      <icon class="pa" type="success"></icon>
+      <view class="pb">Flex弹性盒模型布局</view>
+      <image src="/images/right-arrow.png" class="pc"></image>
+    </view>
+  </navigator>
+
+  <navigator url="../floatym/index">
+    <view class="waikuang">
+      <icon class="pa" type="success"></icon>
+      <view class="pb">Float页面布局</view>
+      <image src="/images/right-arrow.png" class="pc"></image>
+    </view>
+  </navigator>
+</view>

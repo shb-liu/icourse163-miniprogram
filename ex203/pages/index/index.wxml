@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="title">
+    图片和声音
+  </view>
+  <view>
+    <image src="{{imgSrc}}" bindtap="tapCat"></image>
+  </view>
+</view>

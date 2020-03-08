@@ -1,0 +1,74 @@
+/**index.wxss**/
+.bg1{
+  height: 240px;
+  width: 200px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.box1{
+  width: 100px;
+  height: 80px;
+  background-color: red;
+  margin: 0 auto;
+}
+
+.box2{
+  width: 100px;
+  line-height: 80px;
+  background-color: yellow;
+  float: left;
+}
+
+.box3{
+  width: 100px;
+  height: 80px;
+  background-color: gold;
+  float: right;
+}
+
+.box4{
+  width: 100px;
+  height: 80px;
+  background-color: green;
+  clear: both;
+  margin: 0 auto;
+}
+
+.bg2{
+  height: 400rpx;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.header{
+  line-height: 100rpx;
+  background-color: red;
+}
+
+.leftbar{
+  width: 20%;
+  line-height: 200rpx;
+  background-color: yellow;
+  float: left;
+}
+
+.main{
+  width: 60%;
+  line-height: 200rpx;
+  background-color: rgb(157, 255, 0);
+  float: left;
+}
+
+.rightbar{
+  width: 20%;
+  line-height: 200rpx;
+  background-color: yellow;
+  float: right;
+}
+
+.footer{
+  line-height: 100rpx;
+  background-color: red;
+  clear: both;
+}

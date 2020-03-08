@@ -1,0 +1,13 @@
+/**app.wxss**/
+.box{
+  border: black 1px solid;
+  margin: 15px;
+  padding: 15px;
+}
+
+.title{
+  color: red;
+  font-size: 25px;
+  text-align: center;
+  margin: 10px;
+}

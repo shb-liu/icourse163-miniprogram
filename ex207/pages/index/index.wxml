@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="title">Float页面布局</view>
+
+  <view class="bg1">
+    <view class="box1">box1</view>
+    <view class="box2">box2</view>
+    <view class="box3">box3</view>
+    <view class="box4">box4</view>
+  </view>
+
+  <view class="bg2">
+    <view class="header">header</view>
+    <view class="leftbar">leftbar</view>
+    <view class="main">main</view>
+    <view class="rightbar">rightbar</view>
+    <view class="footer">footer</view>
+  </view>
+
+</view>

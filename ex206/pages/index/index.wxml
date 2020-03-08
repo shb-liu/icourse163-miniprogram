@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="title">框架案例</view>
+  <navigator url="HelloWechat/index">
+    <view class="waikuang">
+      <icon type="success" class="myleft"></icon>
+      <view class="mycenter">HelloWechat</view>
+      <image src="/images/right-arrow.png" class="myright"></image>
+    </view>
+  </navigator>
+
+  <navigator url="FontStyle/index">
+    <view class="waikuang">
+      <icon type="success" class="myleft"></icon>
+      <view class="mycenter">FontStyle</view>
+      <image src="/images/right-arrow.png" class="myright"></image>
+    </view>
+  </navigator>
+</view>

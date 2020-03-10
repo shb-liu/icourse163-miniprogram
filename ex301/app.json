@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/jiaoxue/jiaoxue",
+    "pages/keyan/keyan",
+    "pages/zixun/zixun",
+    "pages/guanyu/guanyu"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "北方工业大学欢迎您",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "color": "#000",
+    "selectedColor": "#00f",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/home-off.png",
+        "selectedIconPath": "/images/home-on.png"
+      },
+      {
+        "pagePath": "pages/jiaoxue/jiaoxue",
+        "text": "教学",
+        "iconPath": "/images/jiaoxue-off.png",
+        "selectedIconPath": "/images/jiaoxue-on.png"
+      },
+      {
+        "pagePath": "pages/keyan/keyan",
+        "text": "科研",
+        "iconPath": "/images/keyan-off.png",
+        "selectedIconPath": "/images/keyan-on.png"
+      },
+      {
+        "pagePath": "pages/zixun/zixun",
+        "text": "资讯",
+        "iconPath": "/images/zixun-off.png",
+        "selectedIconPath": "/images/zixun-on.png"
+      },
+      {
+        "pagePath": "pages/guanyu/guanyu",
+        "text": "关于我们",
+        "iconPath": "images/guanyu-off.png",
+        "selectedIconPath": "/images/guanyu-on.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

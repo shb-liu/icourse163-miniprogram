@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="box">
+<view class="title">数据绑定示例</view>
+<view>算数运算绑定：{{a}}+{{b}}+{{c}}={{a+b+c}}</view>
+<view>对象绑定-学号：{{student.stID}}</view>
+<view>对象绑定-姓名：{{student.name}}</view>
+<view>对象绑定-生日：{{student.birth}}</view>
+<view>数组绑定-array[0]：{{ar[0]}}</view>
+<view>数组绑定-array[1]：{{ar[1]}}</view>
+<view>数组绑定-array[2]：{{ar[2]}}</view>
+<button type="primary" bindtap="newData">修改绑定数据</button>
+</view>

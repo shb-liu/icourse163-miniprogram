@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="box">
+<view class="title">变量模块化示例</view>
+<view>全局变量：{{msg1}}</view>
+<view>全局函数：{{msg2}}</view>
+<view>本文件变量：{{msg3}}</view>
+<view>本文件函数：{{msg4}}</view>
+<view>其他模块变量：{{msg5}}</view>
+<view>其他模块函数：{{msg6}}</view>
+</view>

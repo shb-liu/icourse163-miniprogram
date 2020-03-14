@@ -1,0 +1,8 @@
+<!--logs.wxml-->
+<view class="box">
+<view class="title">成绩等级计算器</view>
+<view class="title">JS计算</view>
+<view class="ts">请输入你的考试成绩</view>
+<input placeholder="在此输入成绩" bindblur="gScore"></input>
+<view class="ts">成绩等级：{{lv}}</view>
+</view>

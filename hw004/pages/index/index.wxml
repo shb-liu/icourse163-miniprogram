@@ -1,5 +1,5 @@
 <!--index.wxml-->
 <view class="box">
-<view class="title">我的主页</view>
+<view class="title">我的Github</view>
 <text>https://github.com/mzm-l/icourse163-miniprogram</text>
 </view>

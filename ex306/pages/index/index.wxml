@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="box">
+<view class="title">成绩等级计算器</view>
+<view class="ts">请输入你的考试成绩</view>
+<input placeholder="在此输入成绩" bindblur="gScore"></input>
+<view wx:if="{{score > 100 || score < 0}}" class="ts">成绩等级：输入有误。</view>
+<view wx:elif="{{score > 90}}" class="ts">成绩等级：优秀</view>
+<view wx:elif="{{score > 80}}" class="ts">成绩等级：良好</view>
+<view wx:elif="{{score > 70}}" class="ts">成绩等级：中等</view>
+<view wx:elif="{{score > 60}}" class="ts">成绩等级：及格</view>
+<view wx:else class="ts">成绩等级：不及格</view>
+</view>

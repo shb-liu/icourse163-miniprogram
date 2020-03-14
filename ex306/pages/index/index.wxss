@@ -1,0 +1,13 @@
+/**index.wxss**/
+.ts{
+  margin: 10px;
+  font-size: 20px
+}
+
+input{
+  margin: 8px;
+  border: 1px solid gray;
+  height: 35px;
+  padding: 5px;
+  width: 50%
+}

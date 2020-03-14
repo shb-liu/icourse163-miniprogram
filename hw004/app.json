@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/about/about"
+    "pages/about/about",
+    "pages/net/net"
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -21,11 +22,18 @@
         "selectedIconPath": "/images/orgOn.png"
       },
       {
+        "pagePath": "pages/net/net",
+        "text": "联系我",
+        "iconPath": "/images/mon.png",
+        "selectedIconPath": "/images/monOn.png"
+      },
+      {
         "pagePath": "pages/about/about",
         "text": "关于我",
         "iconPath": "/images/pir.png",
         "selectedIconPath": "/images/pirOn.png"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap12.json"
 }

@@ -1,0 +1,25 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "视图层计算"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "逻辑层计算"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

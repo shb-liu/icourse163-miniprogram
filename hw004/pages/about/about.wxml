@@ -2,5 +2,4 @@
 <view class="box">
 <view class="title">关于我</view>
 <view style="font-size:15px;text-align:center;margin:10px">自学小程序和Python中</view>
-<view style="font-size:20px;text-align:center;margin:10px">lfl_qw</view>
 </view>

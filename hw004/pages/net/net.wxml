@@ -1,0 +1,5 @@
+<!--net.wxml-->
+<view class="box">
+<view class="title">我的微信</view>
+<view style="font-size:20px;text-align:center;margin:10px">lfl_qw</view>
+</view>

@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<include src="h.wxml"/>
+<view style="margin:10px;font-size:20px;text-align:justify">安得广厦千万间，大庇天下寒士俱欢颜，风雨不动安如山。呜呼！何时眼前突兀见此屋，吾庐独破受冻死亦足!</view>
+<include src="f.wxml"/>

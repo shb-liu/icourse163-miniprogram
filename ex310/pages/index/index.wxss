@@ -1,0 +1,14 @@
+/**index.wxss**/
+.h{
+  font-size: 25px;
+  display: flex;
+  margin: 5px;
+  color: blue;
+  justify-content: space-evenly;
+  border-bottom: 1px solid silver
+}
+.f{
+  margin: 20px;
+  font-size: 15px;
+  text-align: center
+}

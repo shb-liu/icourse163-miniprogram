@@ -1,21 +1,14 @@
 /**index.wxss**/
-.userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.view-item{
+  height: 5px;
+  width: 100%
 }
-
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.bc-r{
+  background-color: red
 }
-
-.userinfo-nickname {
-  color: #aaa;
+.bc-g{
+  background-color: green
 }
-
-.usermotto {
-  margin-top: 200px;
+.bc-b{
+  background-color: blue
 }

@@ -1,1 +1,21 @@
 <!--index.wxml-->
+<view style="text-align:center; margin:20px">
+  <view>绑定数组渲染（js定义数组）</view>
+  <view wx:for="{{array}}">array[{{index}}]:{{item}}</view>
+  --------
+  <view>直接数组渲染（wxml定义数组）</view>
+  <view wx:for="{{['春', '夏', '秋', '冬']}}">array[{{index}}]:{{item}}</view>
+  --------
+  <view>对象渲染（js定义）</view>
+  <view wx:for='{{object}}'>{{index}}: {{item}}</view>
+  --------
+  <view>字符串渲染及index和item重名</view>
+  <view wx:for="杜春涛" wx:for-index="i" wx:for-item="j">array[{{i}}]: {{j}}</view>
+  --------
+  <view>利用block渲染多节点结构块</view>
+  <block wx:for="{{[1,2,4]}}">
+    <view class="view-item bc-r"></view>
+    <view class="view-item bc-g"></view>
+    <view class="view-item bc-b"></view>
+  </block>
+</view>

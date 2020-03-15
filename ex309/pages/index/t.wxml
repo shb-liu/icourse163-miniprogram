@@ -1,0 +1,5 @@
+<template name="student">
+  <view>name: {{name}}</view>
+  <view>age: {{age}}</view>
+  <view>gender: {{gender}}</view>
+</template>

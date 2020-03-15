@@ -1,0 +1,5 @@
+/**index.wxss**/
+.eq{
+  margin: 1px;
+  width: 64px
+}

@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/lu/lu",
+    "pages/ld/ld",
+    "pages/ru/ru",
+    "pages/rd/rd"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "九九乘法表（左上）",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/lu/lu",
+        "text": "左上",
+        "iconPath": "/images/luo.png",
+        "selectedIconPath": "/images/lu.png"
+      },
+      {
+        "pagePath": "pages/ld/ld",
+        "text": "左下",
+        "iconPath": "/images/ldo.png",
+        "selectedIconPath": "/images/ld.png"
+      },
+      {
+        "pagePath": "pages/ru/ru",
+        "text": "右上",
+        "iconPath": "/images/ruo.png",
+        "selectedIconPath": "/images/ru.png"
+      },
+      {
+        "pagePath": "pages/rd/rd",
+        "text": "右下",
+        "iconPath": "/images/rdo.png",
+        "selectedIconPath": "/images/rd.png"
+      }
+    ]
+  }
+}

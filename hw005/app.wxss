@@ -1,0 +1,19 @@
+/**app.wxss**/
+
+.l {
+  display: inline-block;
+}
+
+.eq {
+  margin: 2px;
+  width: 70px;
+}
+
+.r {
+  display: inline-block;
+}
+
+.eqr {
+  margin: 2px;
+  width: 70px;
+}

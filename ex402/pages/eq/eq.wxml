@@ -1,0 +1,13 @@
+<!--pages/eq/eq.wxml-->
+<view class="box">
+<view class="title">一元二次方程求解</view>
+请分别输入方程中x平方的系数a、x的系数b、常数c的值
+<form bindsubmit="calc">
+<input placeholder="a" name="a" value="{{a}}"></input>
+<input placeholder="b" name="b" value="{{b}}"></input>
+<input placeholder="c" name="c" value="{{c}}"></input>
+<button form-type="submit">计算</button>
+<view>第1个根：{{ro}}</view>
+<view>第2个根：{{rt}}</view>
+</form>
+</view>

@@ -1,0 +1,23 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/eq/eq"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "三角面积"
+    },
+    {
+      "pagePath": "pages/eq/eq",
+      "text": "一元二次方程"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}

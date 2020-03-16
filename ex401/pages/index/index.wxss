@@ -1,0 +1,16 @@
+/**index.wxss**/
+input{
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 2px solid blue;
+}
+
+button{
+  flex-grow: 1;
+  margin: 10px;
+}
+
+.re{
+  font-size: 20px;
+  margin: 8px 20px;
+}

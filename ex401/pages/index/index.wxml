@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="box">
+<view class="title">货币兑换</view>
+<form bindsubmit="calc" bindreset="reset">
+<input placeholder="请输入人民币金额" placeholder-style="font-size:25px" name="ip" type="number" auto-focus="true"></input>
+<view style="display:flex;margin-bottom:30px">
+<button type="primary" form-type="submit">计算</button>
+<button type="primary" form-type="reset">清除</button>
+</view>
+<view class="re">兑换美元为：{{m}}</view>
+<view class="re">兑换英镑为：{{y}}</view>
+<view class="re">兑换港元为：{{g}}</view>
+<view class="re">兑换欧元为：{{o}}</view>
+<view class="re">兑换韩元为：{{h}}</view>
+<view class="re">兑换日元为：{{r}}</view>
+</form>
+</view>

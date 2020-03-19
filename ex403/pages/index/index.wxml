@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="title">修改字体样式和大小</view>
+  <text style="font-weight:{{myBold}}; font-style:{{myItalic}}; text-decoration:{{myUnderline}}; font-size:{{myFontSize}}">北方工业大学</text>
+  <checkbox-group bindchange="checkboxChange">
+    <checkbox value="isBold">加粗</checkbox>
+    <checkbox value="isItalic">倾斜</checkbox>
+    <checkbox value="isUnderline">下划线</checkbox>
+  </checkbox-group>
+  <radio-group bindchange="radioChange">
+    <radio value="15px">15px</radio>
+    <radio value="25px" checked="true">25px</radio>
+    <radio value="35px">35px</radio>
+  </radio-group>
+</view>

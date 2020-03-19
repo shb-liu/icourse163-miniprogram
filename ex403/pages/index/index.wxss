@@ -1,0 +1,6 @@
+/**index.wxss**/
+radio, checkbox{
+  margin-top: 20rpx;
+  margin-bottom: 10rpx;
+  margin-right: 10rpx;
+}

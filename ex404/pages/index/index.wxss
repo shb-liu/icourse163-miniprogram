@@ -1,0 +1,5 @@
+/**index.wxss**/
+.showColor{
+  width: 350px;
+  height: 100px
+}

@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="box">
+<view class="title">滑动条和颜色</view>
+红色滑块
+<slider data-color="r" value="{{r}}" max="255" block-color="red" show-value="true" bindchanging="colorChanging"></slider>
+绿色滑块
+<slider data-color="g" value="{{g}}" max="255" block-color="green" show-value="true" bindchanging="colorChanging"></slider>
+蓝色滑块
+<slider data-color="b" value="{{b}}" max="255" block-color="blue" show-value="true" bindchanging="colorChanging"></slider>
+透明度滑块
+<slider data-color="a" value="{{a}}" block-color="silver" max="1" step="0.01" show-value="true" bindchanging="colorChanging"></slider>
+<view class="showColor" style="background-color:rgba({{r}},{{g}},{{b}},{{a}})"></view>
+</view>

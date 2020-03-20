@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="title">Swiper and switch</view>
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" circular="{{circular}}" vertical="{{vertical}}" duration="{{duration}}">
+    <block wx:for="{{background}}" wx:key="{{index}}">
+      <swiper-item>
+        <view class="{{item}}"></view>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="waikuang">
+    <text class="myleft">指示点</text>
+    <switch checked="{{indicatorDots}}" bindchange="changeIndicatorDots"></switch>
+  </view>
+  <view class="waikuang">
+    <text class="myleft">自动播放</text>
+    <switch checked="{{autoplay}}" bindchange="changeAutoplay"></switch>
+  </view>
+  <view class="waikuang">
+    <text class="myleft">衔接滑动</text>
+    <switch checked="{{circular}}" bindchange="changeCircular"></switch>
+  </view>
+  <view class="waikuang">
+    <text class="myleft">竖向</text>
+    <switch checked="{{vertical}}" bindchange="changeVertical"></switch>
+  </view>
+</view>

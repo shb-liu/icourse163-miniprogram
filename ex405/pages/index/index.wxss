@@ -1,0 +1,25 @@
+/**index.wxss**/
+.bc-red{
+  width: 100%;
+  height: 150px;
+  background-color: red;
+}
+.bc-green{
+  width: 100%;
+  height: 150px;
+  background-color: green;
+}
+.bc-blue{
+  width: 100%;
+  height: 150px;
+  background-color: blue;
+}
+.waikuang {
+  display: flex;
+  flex-direction: row;
+  margin: 5px 0;
+  padding: 5px 0
+}
+.myleft{
+  flex-grow: 1;
+}

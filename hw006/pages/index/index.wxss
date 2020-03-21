@@ -1,0 +1,21 @@
+/**index.wxss**/
+
+.n {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.l {
+  margin-right: 5px;
+}
+
+.c {
+  flex-grow: 1;
+  font-size: 18px;
+}
+
+.r {
+  height: 18px;
+  width: 18px;
+}

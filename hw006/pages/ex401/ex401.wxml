@@ -1,0 +1,14 @@
+<!--pages/ex401/ex401.wxml-->
+<view class="box">
+  <view class="title">货币兑换</view>
+  <form bindsubmit="calc" bindreset="cle">
+    <input placeholder="请输入人民币金额"></input>
+    <view>
+      <button>计算</button>
+      <button>清除</button>
+    </view>
+    <view>
+
+    </view>
+  </form>
+</view>

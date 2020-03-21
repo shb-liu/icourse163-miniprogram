@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="title">导航页</view>
+  <view wx:for='{{num}}' wx:key='index'>
+    <navigator url="{{urls[item]}}" class="n">
+      <icon type="success" class="l"></icon>
+      <view class="c">{{nvgs[item]}}</view>
+      <image src="/images/right-arrow.png" class="r"></image>
+    </navigator>
+  </view>
+</view>

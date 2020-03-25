@@ -1,6 +1,15 @@
 <!--pages/ex403/ex403.wxml-->
 <view class="box">
-<view class="title">设置字体样式和大小</view>
-
-
+  <view class="title">设置字体样式和大小</view>
+  <view style="font-weight:{{mB}}; font-style:{{mI}}; text-decoration:{{mU}}; font-size:{{mS}}">效果示例</view>
+  <checkbox-group bindchange="cbC">
+    <checkbox value="iB">加粗</checkbox>
+    <checkbox value="iI">斜体</checkbox>
+    <checkbox value="iU">下划线</checkbox>
+  </checkbox-group>
+  <radio-group bindchange="rC">
+    <radio value="20px">20px</radio>
+    <radio value="25px" checked="true">25px</radio>
+    <radio value="30px">30px</radio>
+  </radio-group>
 </view>

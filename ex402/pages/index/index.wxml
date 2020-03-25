@@ -1,12 +1,13 @@
 <!--index.wxml-->
 <view class="box">
   <view class="title">三角形面积计算器</view>
-  <form bindsubmit="calc">
+  <form bindsubmit="calc" bindreset="clear">
     <view>输入三角形的三条边长：</view>
     <input name="a" placeholder="第一条边长" type="digt" value="{{a}}"></input>
     <input name="b" placeholder="第二条边长" type="digt" value="{{b}}"></input>
     <input name="c" placeholder="第三条边长" type="digt" value="{{c}}"></input>
     <button form-type="submit" type="primary">计算</button>
+        <button form-type="reset" type="primary">清除</button>
     <view>三角形的面积为：{{ar}}</view>
   </form>
 </view>

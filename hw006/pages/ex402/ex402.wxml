@@ -1,2 +1,15 @@
 <!--pages/ex402/ex402.wxml-->
-<text>pages/ex402/ex402.wxml</text>
+<view class="box">
+<view class="title">三角形面积计算器</view>
+<text>输入三角形的三边长</text>
+<form bindsubmit="calc" bindreset="clear">
+<input placeholder="第一条边长" placeholder-class="ipt" name="a" type="digt" value="{{a}}"></input>
+<input placeholder="第二条边长" placeholder-class="ipt" name="b" type="digt" value="{{b}}"></input>
+<input placeholder="第三条边长" placeholder-class="ipt" name="c" type="digt" value="{{c}}"></input>
+<view class="btns">
+<button form-type="submit" type="primary">计算</button>
+<button form-type="reset"  type="primary">清除</button>
+</view>
+<text>三角形的面积为：{{s}}</text>
+</form>
+</view>

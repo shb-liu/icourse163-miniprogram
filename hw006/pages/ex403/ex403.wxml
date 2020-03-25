@@ -1,2 +1,6 @@
 <!--pages/ex403/ex403.wxml-->
-<text>pages/ex403/ex403.wxml</text>
+<view class="box">
+<view class="title">设置字体样式和大小</view>
+
+
+</view>

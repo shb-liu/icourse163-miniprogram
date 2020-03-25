@@ -2,13 +2,14 @@
 <view class="box">
   <view class="title">货币兑换</view>
   <form bindsubmit="calc" bindreset="cle">
-    <input placeholder="请输入人民币金额"></input>
-    <view>
-      <button>计算</button>
-      <button>清除</button>
+    <input placeholder="请输入人民币金额" placeholder-class="plh" name="r" type="number" focus="true"></input>
+    <view class="btns">
+      <button form-type="submit" type="primary">计算</button>
+      <button form-type="reset" type="primary">清除</button>
     </view>
-    <view>
-
+    <view class="fr">
+      <text>兑换美元为：{{m}}</text>
+      <text>兑换英镑为：{{y}}</text>
     </view>
   </form>
 </view>

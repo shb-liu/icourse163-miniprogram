@@ -1,1 +1,26 @@
 /* pages/ex401/ex401.wxss */
+input{
+  margin: 20px;
+  padding: 5px;
+  border-bottom: 1px solid grey;
+}
+.plh{
+  font-size: 20px;
+}
+.btns{
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0
+}
+button{
+  width: 40%
+}
+.fr{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin: 0 20px
+}
+text{
+  margin: 10px 0
+}

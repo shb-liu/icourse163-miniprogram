@@ -1,66 +1,32 @@
 // pages/ex402/ex402.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
-  data: {
-
+  calc: function (e) {
+    var a = parseFloat(e.detail.value.a);
+    var b = parseFloat(e.detail.value.b);
+    var c = parseFloat(e.detail.value.c);
+    var ar;
+    if (a + b <= c || a + c <= b || b + c <= a) {
+      wx.showToast({
+        title: '三角形的两边之和小于等于第三边，无法形成三角形',
+        icon: "none",
+        duration: 2000,
+      })
+      this.clear();
+      return;
+    } else {
+      var l = (a + b +c) / 2;
+      ar = Math.sqrt(l * (l - a) * (l - b) * (l - c))
+    }
+    this.setData({
+      s: ar
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  clear: function(){
+    this.setData({
+      a: "",
+      b: "",
+      c: "",
+      s: ""
+    })
   }
 })

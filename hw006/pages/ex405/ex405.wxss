@@ -1,1 +1,21 @@
 /* pages/ex405/ex405.wxss */
+.sw{
+  display: flex;
+  flex-direction: row;
+  padding: 8px
+}
+.bgr{
+  height: 100%;
+  width: 100%;
+  background-color: red
+}
+.bgg{
+  height: 100%;
+  width: 100%;
+  background-color: green
+}
+.bgb{
+  height: 100%;
+  width: 100%;
+  background-color: blue
+}

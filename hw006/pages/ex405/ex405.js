@@ -1,66 +1,37 @@
 // pages/ex405/ex405.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
-
+    bg: ['bgr', 'bgg', 'bgb'],
+    id: false,
+    ap: true,
+    cc: true,
+    vt: false,
+    it: 2,
+    dr: 500
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
+  cid: function(e){
+    this.setData({
+      id: !this.data.id
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
+  cap: function(e){
+    this.setData({
+      ap: !this.data.ap
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
+  ccc: function(e){
+    this.setData({
+      cc: !this.data.cc
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
+  cvt: function(e){
+    this.setData({
+      vt: !this.data.vt
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  cit: function(e){
+    this.setData({
+      it: e.detail.value
+    })
   }
 })

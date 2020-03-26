@@ -1,2 +1,33 @@
 <!--pages/ex405/ex405.wxml-->
-<text>pages/ex405/ex405.wxml</text>
+<view class="box">
+  <view class="title">轮播图和开关选择器</view>
+  <swiper indicator-dots="{{id}}" autoplay="{{ap}}" circular="{{cc}}" vertical="{{vt}}" duration="{{dr}}" interval="{{it * 1000}}">
+    <block wx:for="{{bg}}" wx:key="{{index}}">
+      <swiper-item>
+        <view class="{{item}}"></view>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="sw">
+    <view style="flex-grow:1">指示点</view>
+    <switch checked="{{id}}" bindchange="cid"></switch>
+  </view>
+  <view class="sw">
+    <view style="flex-grow:1">自动播放</view>
+    <switch checked="{{ap}}" bindchange="cap"></switch>
+  </view>
+  <view class="sw">
+    <view style="flex-grow:1">衔接滑动</view>
+    <switch checked="{{cc}}" bindchange="ccc"></switch>
+  </view>
+  <view class="sw">
+    <view style="flex-grow:1">竖向</view>
+    <switch checked="{{vt}}" bindchange="cvt"></switch>
+  </view>
+  <view class="sw">
+    <view style="width:110px">展示时长(秒）</view>
+    <view style="flex-grow:1">
+      <slider block-size="18" block-color="rgb(24,181,4)" show-value="true" max="3" min="1" step="0.1" bindchanging="cit" value="{{it}}"></slider>
+    </view>
+  </view>
+</view>

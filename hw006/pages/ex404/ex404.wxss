@@ -1,1 +1,6 @@
 /* pages/ex404/ex404.wxss */
+.show{
+  height: 100px;
+  width: 100%;
+  margin: 5px
+}

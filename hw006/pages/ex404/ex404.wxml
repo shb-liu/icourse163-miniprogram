@@ -1,2 +1,13 @@
 <!--pages/ex404/ex404.wxml-->
-<text>pages/ex404/ex404.wxml</text>
+<view class="box">
+  <view class="title">滑动条和颜色</view>
+  红色模块
+  <slider block-color="red" block-size="18" max="255" show-value="true" bindchanging="cc" value="{{r}}" data-color="r"></slider>
+  绿色模块
+  <slider block-color="green" block-size="18" max="255" show-value="true" bindchanging="cc" value="{{g}}" data-color="g"></slider>
+  蓝色模块
+  <slider block-color="blue" block-size="18" max="255" show-value="true" bindchanging="cc" value="{{b}}" data-color="b"></slider>
+  透明模块
+  <slider block-color="gray" block-size="18" max="1" step="0.01" show-value="true" bindchanging="cc" value="{{a}}" data-color="a"></slider>
+  <view class="show" style="background-color:rgba({{r}},{{g}},{{b}},{{a}})"></view>
+</view>

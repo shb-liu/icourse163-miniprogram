@@ -1,7 +1,6 @@
 <!--pages/ru/ru.wxml-->
 <view wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="i">
-  <view wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="j" class="r">
-    <view wx:if="{{i>j}}" class="eqr"></view>
-    <view wx:if="{{i<=j}}" class="eqr">{{i}}*{{j}}={{i*j}}</view>
+  <view style="display:inline-block;width:80rpx" wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="j"> <!--宽度加在此处，即方程上一级，可以使未显示方程也占有显示位置，即i>j的view-->
+    <view wx:if="{{i<=j}}">{{i}}*{{j}}={{i*j}}</view>
   </view>
 </view>

@@ -1,7 +1,6 @@
 <!--pages/rd/rd.wxml-->
 <view wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="i">
-  <view wx:for="{{[1,2,3,4,5,6,7,8,9]}}" wx:for-item="j" class="r">
-    <view wx:if="{{i<(10-j)}}" class="eqr"></view>
-    <view wx:if="{{i>=(10-j)}}" class="eqr">{{i}}*{{10-j}}={{i*(10-j)}}</view>
+  <view wx:for="{{[9,8,7,6,5,4,3,2,1]}}" wx:for-item="j" style="display:inline-block;width:80rpx">
+    <view wx:if="{{i>=j}}">{{i}}*{{j}}={{i*j}}</view>
   </view>
 </view>

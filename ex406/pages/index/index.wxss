@@ -1,0 +1,17 @@
+/**index.wxss**/
+.lineLayout{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+input{
+  height: 30px;
+  border-bottom: 2px solid silver;
+  margin: 10rpx 0;
+}
+
+picker, button{
+  margin: 15px 0;
+}

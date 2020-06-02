@@ -1,0 +1,20 @@
+/*index.wxss*/
+
+.lineLayout {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; /*弹性盒子元素在主轴（横轴）方向上的对齐方式*/
+  align-items: center; /*定义flex子项在flex容器的当前行的侧轴（纵轴）方向上的对齐方式*/
+}
+
+input {
+  /* 设置input组件样式 */
+  height: 30px;
+  border-bottom: 2px solid silver;
+  margin: 10rpx 0;
+}
+
+picker, button {
+  /* 设置picker和button组件样式 */
+  margin: 15px 0;
+}

@@ -1,0 +1,25 @@
+<!--pages/zj/CandidateInforReg/index.wxml-->
+<image src="../image/ncut.jpg" mode="scaleToFill"></image>
+<view class="box">
+  <view class='title'>考试场次选择</view>
+  <view class='hr'></view>
+  <form bindsubmit="formSubmit">
+    <view class="lineLayout">
+      <text>电子邮箱：</text>
+      <input type="text" bindchange="inputemail" name="email" value="{{getEmail}}"></input>
+    </view>
+    <view class="lineLayout">
+      <text> 输入密码：</text>
+      <input type="password" name="password" value="{{getPwd}}"></input>
+    </view>
+    <view class="lineLayout">
+      <text> 确认密码：</text>
+      <input type="password" name="confirm" value="{{getPwdConfirm}}"></input>
+    </view>    
+    <button type='primary' form-type='submit'>登录</button>
+    <view>
+      <view class="txt">{{showMsg01}}</view>
+      <view class='txt'>{{showMsg02}}</view>     
+    </view>
+  </form>
+</view>

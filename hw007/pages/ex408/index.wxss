@@ -1,0 +1,13 @@
+/* pages/zj/MultiMedia/audio/audio.wxss */
+
+button {
+  margin-top: 50rpx;
+  width: 500rpx;
+}
+
+.btnLayout {
+  margin-top: 50rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 沿交叉轴方向居中对齐 */
+}

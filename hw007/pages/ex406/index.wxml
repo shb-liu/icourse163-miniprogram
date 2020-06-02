@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<view class="box">
+  <view class='title'>个人信息填写</view>
+  <view class='lineLayout'>
+    <view>姓名：</view>
+    <input placeholder='请输入姓名' bindinput="nameInput"></input>
+  </view>
+  <picker bindchange="pickerSex" range="{{gender}}">
+    <view>性别：{{sex}}</view>
+  </picker>
+  <picker mode='region' bindchange='pickerRegion'>
+    <view>籍贯：{{birthPlace}}</view>
+  </picker>
+  <picker mode="date" start="1800-01-01" end="2999-12-12" bindchange="pickerDate">
+    <view>出生日期：{{birthDay}}</view>
+  </picker>
+  <view class='lineLayout'>
+    <view>身高(CM)：</view>
+    <input type='number' bindinput="heightInput" placeholder='请输入身高'></input>
+  </view>
+  <view class='lineLayout'>
+    <view>体重(KG)：</view>
+    <input type='digit' bindinput="weightInput" placeholder="请输入体重"></input>
+  </view>
+  <button type='primary' bindtap="showMessage">显示个人信息</button>
+
+  <view hidden='{{flag}}'>
+    <view>姓名：{{person.name}}</view>
+    <view>性别：{{person.sex}}</view>
+    <view>籍贯：{{person.birthPlace}}</view>
+    <view>出生日期：{{person.birthDay}}</view>
+    <view>身高(CM)：{{person.height}}</view>
+    <view>体重(KG)：{{person.weight}}</view>
+  </view>
+</view>

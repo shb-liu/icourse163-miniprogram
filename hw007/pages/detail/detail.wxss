@@ -1,0 +1,49 @@
+/* pages/zj/CandidateInforReg/detail/detail.wxss */
+
+page {
+  /* 设置页面样式 */
+  height: 100%;
+  background: gainsboro;
+}
+
+.flex {
+  /* 设置text组件和input组件的布局 */
+  display: flex;
+  margin: 5px 0;
+  justify-content: flex-start; /* 设置水平方向左对齐 */
+  align-items: center; /* 设置垂直方向居中对齐 */
+}
+
+input {
+  /* 设置input组件样式 */
+  width: 150px;
+  height: 30px;
+  border: 2px solid gray; /* 设置input组件边框样式 */
+  margin: 5px;
+}
+
+input:hover {
+  /* 设置输入时input组件边框样式 */
+  border: 2px solid chocolate;
+}
+
+picker {
+  /* 设置picker组件样式 */
+  margin: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.btnLayout {
+  /* 设置button组件布局 */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 50px 0;
+  width: 100%;
+}
+
+button {
+  /* 设置button组件样式 */
+  width: 80px;
+}

@@ -1,0 +1,21 @@
+<!--pages/zj/CandidateInforReg/detail/detail.wxml-->
+<view class="box">
+  <view class='title'>考试时段选择</view>
+  <form bindsubmit="formSubmit">
+    <view class="flex">
+      <text>姓名：</text>
+      <input type="text" auto-focus name="name" value="{{name}}"></input>
+    </view>
+    <view class="flex">
+      <text>学号：</text>
+      <input type="number" name="id" value="{{id}}"></input>
+    </view>
+    <picker bindchange="chooseTime" value="{{index}}" range="{{array}}" name="time">
+      请选择考试时段：{{array[index]}}
+    </picker>
+    <view class="btnLayout">
+      <button type='primary' form-type='submit'>确定</button>
+      <button type='primary'>取消</button>
+    </view>
+  </form>
+</view>
